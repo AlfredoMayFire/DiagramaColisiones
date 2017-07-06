@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="DiagramaColisiones" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t4T-Gv-NX4">
+                                <rect key="frame" x="52" y="15" width="105" height="31"/>
+                                <state key="normal" title="Reset"/>
+                                <connections>
+                                    <action selector="resetButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2Z7-Tp-Q1n"/>
+                                </connections>
+                            </button>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="car_0000_1.png" translatesAutoresizingMaskIntoConstraints="NO" id="zyW-eq-mik">
+                                <rect key="frame" x="79" y="186" width="226" height="102"/>
+                                <gestureRecognizers/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="52" y="49" width="226" height="102"/>
+                                </variation>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="xr8-dS-Mlq" appends="YES" id="0jh-E9-gn5"/>
+                                    <outletCollection property="gestureRecognizers" destination="148-WR-2If" appends="YES" id="O0U-wz-xjY"/>
+                                </connections>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="car_0001_2.png" translatesAutoresizingMaskIntoConstraints="NO" id="471-Nv-Myg">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <gestureRecognizers/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="52" y="159" width="240" height="128"/>
+                                </variation>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="gMm-JQ-cuO" appends="YES" id="iVx-t1-xfH"/>
+                                    <outletCollection property="gestureRecognizers" destination="p92-ir-Qah" appends="YES" id="xCz-lN-l1E"/>
+                                </connections>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bus_0002_3.png" translatesAutoresizingMaskIntoConstraints="NO" id="JxI-jA-Mzk">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <gestureRecognizers/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="52" y="287" width="240" height="128"/>
+                                </variation>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="9XX-FX-TO8" appends="YES" id="HR2-Qn-pd6"/>
+                                    <outletCollection property="gestureRecognizers" destination="HIA-6q-KyS" appends="YES" id="SZo-dG-M7c"/>
+                                </connections>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="truck_0003_4.png" translatesAutoresizingMaskIntoConstraints="NO" id="nPz-dV-vB7">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <gestureRecognizers/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="52" y="414" width="240" height="128"/>
+                                </variation>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="iDa-iX-gEL" appends="YES" id="4bJ-wh-Rbw"/>
+                                    <outletCollection property="gestureRecognizers" destination="mqf-VN-655" appends="YES" id="Orz-yL-d7n"/>
+                                </connections>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="car_0005_6.png" translatesAutoresizingMaskIntoConstraints="NO" id="cYN-Dq-eRX">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <gestureRecognizers/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="52" y="539" width="240" height="128"/>
+                                </variation>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="DYN-Nd-14U" appends="YES" id="bcQ-Kr-alO"/>
+                                    <outletCollection property="gestureRecognizers" destination="12J-h4-V9N" appends="YES" id="k1B-NI-XoT"/>
+                                </connections>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bus_0006_7.png" translatesAutoresizingMaskIntoConstraints="NO" id="pvT-xJ-H8I">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <gestureRecognizers/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="52" y="664" width="240" height="128"/>
+                                </variation>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="jmP-n3-sXc" appends="YES" id="nv5-jH-elL"/>
+                                    <outletCollection property="gestureRecognizers" destination="jyo-CP-KAV" appends="YES" id="u3K-RJ-tTi"/>
+                                </connections>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="moto_0007_8.png" translatesAutoresizingMaskIntoConstraints="NO" id="f4s-9b-JDQ">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <gestureRecognizers/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="292" y="36" width="240" height="128"/>
+                                </variation>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="CHv-ev-vgB" appends="YES" id="ehm-tN-BUB"/>
+                                    <outletCollection property="gestureRecognizers" destination="DB1-Jg-ldD" appends="YES" id="uVL-xs-xOL"/>
+                                </connections>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="truck_0008_9.png" translatesAutoresizingMaskIntoConstraints="NO" id="WmJ-RN-Grz">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <gestureRecognizers/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="292" y="159" width="240" height="128"/>
+                                </variation>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="bET-kG-zE8" appends="YES" id="TlT-5t-0ed"/>
+                                    <outletCollection property="gestureRecognizers" destination="984-ja-tLe" appends="YES" id="PXh-ZJ-KZX"/>
+                                </connections>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="car_0009_10.png" translatesAutoresizingMaskIntoConstraints="NO" id="hQs-lR-xAg">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <gestureRecognizers/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="292" y="287" width="240" height="128"/>
+                                </variation>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="JsK-xi-KXX" appends="YES" id="0qC-Rl-6Rs"/>
+                                    <outletCollection property="gestureRecognizers" destination="woX-g1-zxo" appends="YES" id="ism-dO-Bo1"/>
+                                </connections>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="truck_0004_5.png" translatesAutoresizingMaskIntoConstraints="NO" id="PpJ-fN-2QP">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <gestureRecognizers/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="292" y="414" width="240" height="128"/>
+                                </variation>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="J1R-VZ-dF0" appends="YES" id="m56-3N-hGe"/>
+                                    <outletCollection property="gestureRecognizers" destination="dig-FF-APp" appends="YES" id="euw-ju-XmN"/>
+                                </connections>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="laC-WC-YnP">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Add Truck"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="165" y="16" width="87" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="addTruck:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wAc-JD-kZ8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QrQ-TB-zuG">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Add Motorcycle"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="280" y="16" width="112" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="addMotorcycle:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fXi-VO-vgs"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l3f-vb-l3A">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Add Car"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="434" y="16" width="60" height="29"/>
+                                </variation>
+                                <connections>
+                                    <action selector="addCar:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ymc-uZ-Uqh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cBV-KN-z64">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Add Bus"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="525" y="15" width="71" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="addBus:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5Wj-Sv-tTa"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="d9y-xs-TFJ">
+                                <rect key="frame" x="658" y="20" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="708" y="172" width="97" height="30"/>
+                                </variation>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="7Is-1x-LwJ"/>
+                                </connections>
+                            </textField>
+                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="swb-8S-EV6">
+                                <rect key="frame" x="658" y="50" width="97" height="106"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="703" y="0.0" width="97" height="106"/>
+                                </variation>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="Gqx-Jq-Isj"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="5Hi-xO-HNw"/>
+                                </connections>
+                            </pickerView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="471-Nv-Myg"/>
+                                <exclude reference="JxI-jA-Mzk"/>
+                                <exclude reference="nPz-dV-vB7"/>
+                                <exclude reference="cYN-Dq-eRX"/>
+                                <exclude reference="pvT-xJ-H8I"/>
+                                <exclude reference="f4s-9b-JDQ"/>
+                                <exclude reference="WmJ-RN-Grz"/>
+                                <exclude reference="hQs-lR-xAg"/>
+                                <exclude reference="PpJ-fN-2QP"/>
+                                <exclude reference="laC-WC-YnP"/>
+                                <exclude reference="QrQ-TB-zuG"/>
+                                <exclude reference="l3f-vb-l3A"/>
+                                <exclude reference="cBV-KN-z64"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=regular">
+                            <mask key="subviews">
+                                <include reference="471-Nv-Myg"/>
+                                <include reference="JxI-jA-Mzk"/>
+                                <include reference="nPz-dV-vB7"/>
+                                <include reference="cYN-Dq-eRX"/>
+                                <include reference="pvT-xJ-H8I"/>
+                                <include reference="f4s-9b-JDQ"/>
+                                <include reference="WmJ-RN-Grz"/>
+                                <include reference="hQs-lR-xAg"/>
+                                <include reference="PpJ-fN-2QP"/>
+                                <include reference="laC-WC-YnP"/>
+                                <include reference="QrQ-TB-zuG"/>
+                                <include reference="l3f-vb-l3A"/>
+                                <include reference="cBV-KN-z64"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                    <connections>
+                        <outlet property="carImage" destination="zyW-eq-mik" id="442-KZ-gJd"/>
+                        <outlet property="carImage1" destination="471-Nv-Myg" id="YqR-Vd-owm"/>
+                        <outlet property="carImage2" destination="JxI-jA-Mzk" id="ucd-z3-s72"/>
+                        <outlet property="carImage3" destination="nPz-dV-vB7" id="hPD-cM-wbx"/>
+                        <outlet property="carImage4" destination="cYN-Dq-eRX" id="ONw-Wp-0qS"/>
+                        <outlet property="carImage5" destination="pvT-xJ-H8I" id="wWk-yF-Axt"/>
+                        <outlet property="carImage6" destination="f4s-9b-JDQ" id="2Bw-l5-nbP"/>
+                        <outlet property="carImage7" destination="WmJ-RN-Grz" id="jts-s3-WwW"/>
+                        <outlet property="carImage8" destination="hQs-lR-xAg" id="Tm2-No-aPL"/>
+                        <outlet property="carImage9" destination="PpJ-fN-2QP" id="fQn-xM-7TF"/>
+                        <outlet property="dropDown" destination="swb-8S-EV6" id="PGM-KX-YJn"/>
+                        <outlet property="textBox" destination="d9y-xs-TFJ" id="3HH-mF-93x"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="xr8-dS-Mlq">
+                    <connections>
+                        <action selector="handlePan:" destination="BYZ-38-t0r" id="sb1-F0-o8f"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="gMm-JQ-cuO">
+                    <connections>
+                        <action selector="handlePan:" destination="BYZ-38-t0r" id="R73-Eb-hGg"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="9XX-FX-TO8">
+                    <connections>
+                        <action selector="handlePan:" destination="BYZ-38-t0r" id="Kcd-Mm-COz"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="iDa-iX-gEL">
+                    <connections>
+                        <action selector="handlePan:" destination="BYZ-38-t0r" id="NKZ-R8-b6a"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="DYN-Nd-14U">
+                    <connections>
+                        <action selector="handlePan:" destination="BYZ-38-t0r" id="hlL-l0-tbd"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="jmP-n3-sXc">
+                    <connections>
+                        <action selector="handlePan:" destination="BYZ-38-t0r" id="CK9-8p-cnr"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="CHv-ev-vgB">
+                    <connections>
+                        <action selector="handlePan:" destination="BYZ-38-t0r" id="pjf-Q6-yq8"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="bET-kG-zE8">
+                    <connections>
+                        <action selector="handlePan:" destination="BYZ-38-t0r" id="6Rj-UH-RxJ"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="JsK-xi-KXX">
+                    <connections>
+                        <action selector="handlePan:" destination="BYZ-38-t0r" id="p2X-XE-3gh"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="J1R-VZ-dF0">
+                    <connections>
+                        <action selector="handlePan:" destination="BYZ-38-t0r" id="EPd-PC-ulp"/>
+                    </connections>
+                </panGestureRecognizer>
+                <rotationGestureRecognizer id="148-WR-2If">
+                    <connections>
+                        <action selector="handleRotate:" destination="BYZ-38-t0r" id="q5x-iB-HFD"/>
+                    </connections>
+                </rotationGestureRecognizer>
+                <rotationGestureRecognizer id="p92-ir-Qah">
+                    <connections>
+                        <action selector="handleRotate:" destination="BYZ-38-t0r" id="T8o-8O-oco"/>
+                    </connections>
+                </rotationGestureRecognizer>
+                <rotationGestureRecognizer id="HIA-6q-KyS">
+                    <connections>
+                        <action selector="handleRotate:" destination="BYZ-38-t0r" id="2aO-xO-7Tx"/>
+                    </connections>
+                </rotationGestureRecognizer>
+                <rotationGestureRecognizer id="mqf-VN-655">
+                    <connections>
+                        <action selector="handleRotate:" destination="BYZ-38-t0r" id="IJF-oZ-4ab"/>
+                    </connections>
+                </rotationGestureRecognizer>
+                <rotationGestureRecognizer id="12J-h4-V9N">
+                    <connections>
+                        <action selector="handleRotate:" destination="BYZ-38-t0r" id="XJZ-Ta-Enp"/>
+                    </connections>
+                </rotationGestureRecognizer>
+                <rotationGestureRecognizer id="jyo-CP-KAV">
+                    <connections>
+                        <action selector="handleRotate:" destination="BYZ-38-t0r" id="eQp-kU-aPc"/>
+                    </connections>
+                </rotationGestureRecognizer>
+                <rotationGestureRecognizer id="DB1-Jg-ldD">
+                    <connections>
+                        <action selector="handleRotate:" destination="BYZ-38-t0r" id="6JT-ne-yjh"/>
+                    </connections>
+                </rotationGestureRecognizer>
+                <rotationGestureRecognizer id="984-ja-tLe">
+                    <connections>
+                        <action selector="handleRotate:" destination="BYZ-38-t0r" id="U6n-jc-g9E"/>
+                    </connections>
+                </rotationGestureRecognizer>
+                <rotationGestureRecognizer id="woX-g1-zxo">
+                    <connections>
+                        <action selector="handleRotate:" destination="BYZ-38-t0r" id="FHe-lP-EyF"/>
+                    </connections>
+                </rotationGestureRecognizer>
+                <rotationGestureRecognizer id="dig-FF-APp">
+                    <connections>
+                        <action selector="handleRotate:" destination="BYZ-38-t0r" id="bq4-Ul-sJB"/>
+                    </connections>
+                </rotationGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="-12" y="339"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bus_0002_3.png" width="284" height="109"/>
+        <image name="bus_0006_7.png" width="284" height="109"/>
+        <image name="car_0000_1.png" width="239" height="107"/>
+        <image name="car_0001_2.png" width="239" height="107"/>
+        <image name="car_0005_6.png" width="239" height="107"/>
+        <image name="car_0009_10.png" width="239" height="107"/>
+        <image name="moto_0007_8.png" width="191" height="95"/>
+        <image name="truck_0003_4.png" width="281" height="117"/>
+        <image name="truck_0004_5.png" width="281" height="117"/>
+        <image name="truck_0008_9.png" width="281" height="117"/>
+    </resources>
+</document>

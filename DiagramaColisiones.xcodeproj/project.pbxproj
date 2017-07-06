@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E82CBEA11D9CB75D007FF770 /* 2000px-Street_intersection_diagram.png in Resources */ = {isa = PBXBuildFile; fileRef = E82CBEA01D9CB75D007FF770 /* 2000px-Street_intersection_diagram.png */; };
+		E82CBEE31D9CD0BE007FF770 /* Pictures in Resources */ = {isa = PBXBuildFile; fileRef = E82CBEE21D9CD0BE007FF770 /* Pictures */; };
+		E82CBEE51D9CD1E8007FF770 /* curvaderecha.png in Resources */ = {isa = PBXBuildFile; fileRef = E82CBEE41D9CD1E8007FF770 /* curvaderecha.png */; };
+		E82CBEE71D9CD1ED007FF770 /* curvaizquierda.png in Resources */ = {isa = PBXBuildFile; fileRef = E82CBEE61D9CD1ED007FF770 /* curvaizquierda.png */; };
+		E82CBEE91D9CD1F3007FF770 /* interseccionTPARE.png in Resources */ = {isa = PBXBuildFile; fileRef = E82CBEE81D9CD1F3007FF770 /* interseccionTPARE.png */; };
+		E82CBEEB1D9CD1FA007FF770 /* interseccionTSemaforizada.png in Resources */ = {isa = PBXBuildFile; fileRef = E82CBEEA1D9CD1FA007FF770 /* interseccionTSemaforizada.png */; };
+		E82CBEED1D9CD1FF007FF770 /* interseccionXCuatroPARE.png in Resources */ = {isa = PBXBuildFile; fileRef = E82CBEEC1D9CD1FF007FF770 /* interseccionXCuatroPARE.png */; };
+		E82CBEEF1D9CD201007FF770 /* interseccionXDosPARE.png in Resources */ = {isa = PBXBuildFile; fileRef = E82CBEEE1D9CD201007FF770 /* interseccionXDosPARE.png */; };
+		E82CBEF11D9CD203007FF770 /* interseccionXSemaforizada.png in Resources */ = {isa = PBXBuildFile; fileRef = E82CBEF01D9CD203007FF770 /* interseccionXSemaforizada.png */; };
+		E82CBEF31D9CD211007FF770 /* parking.png in Resources */ = {isa = PBXBuildFile; fileRef = E82CBEF21D9CD211007FF770 /* parking.png */; };
+		E82CBEF51D9CD213007FF770 /* rampaDeEntrada.png in Resources */ = {isa = PBXBuildFile; fileRef = E82CBEF41D9CD213007FF770 /* rampaDeEntrada.png */; };
+		E82CBEF71D9CD214007FF770 /* rampaDeSalida.png in Resources */ = {isa = PBXBuildFile; fileRef = E82CBEF61D9CD214007FF770 /* rampaDeSalida.png */; };
+		E82CBEF91D9CD216007FF770 /* rotonda.png in Resources */ = {isa = PBXBuildFile; fileRef = E82CBEF81D9CD216007FF770 /* rotonda.png */; };
+		E82CBEFB1D9CD217007FF770 /* tangente4CarrilesConIsleta.png in Resources */ = {isa = PBXBuildFile; fileRef = E82CBEFA1D9CD217007FF770 /* tangente4CarrilesConIsleta.png */; };
+		E82CBEFD1D9CD219007FF770 /* tangenteDosCarriles.png in Resources */ = {isa = PBXBuildFile; fileRef = E82CBEFC1D9CD219007FF770 /* tangenteDosCarriles.png */; };
+		E82CBEFF1D9CD225007FF770 /* interseccionXDosPARE.png in Resources */ = {isa = PBXBuildFile; fileRef = E82CBEFE1D9CD225007FF770 /* interseccionXDosPARE.png */; };
+		E84164B41D8F7F3B000D8FE3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84164B31D8F7F3B000D8FE3 /* AppDelegate.swift */; };
+		E84164B61D8F7F3B000D8FE3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84164B51D8F7F3B000D8FE3 /* ViewController.swift */; };
+		E84164B91D8F7F3B000D8FE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E84164B71D8F7F3B000D8FE3 /* Main.storyboard */; };
+		E84164BB1D8F7F3B000D8FE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E84164BA1D8F7F3B000D8FE3 /* Assets.xcassets */; };
+		E84164BE1D8F7F3B000D8FE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E84164BC1D8F7F3B000D8FE3 /* LaunchScreen.storyboard */; };
+		E88743211DA34DC700D84230 /* Icons in Resources */ = {isa = PBXBuildFile; fileRef = E88743201DA34DC700D84230 /* Icons */; };
+		E88743231DA34E2600D84230 /* moto_0000_1.png in Resources */ = {isa = PBXBuildFile; fileRef = E88743221DA34E2600D84230 /* moto_0000_1.png */; };
+		E88743251DA34F9500D84230 /* moto_0001_2.png in Resources */ = {isa = PBXBuildFile; fileRef = E88743241DA34F9500D84230 /* moto_0001_2.png */; };
+		E88743271DA351DF00D84230 /* moto_0002_3.png in Resources */ = {isa = PBXBuildFile; fileRef = E88743261DA351DF00D84230 /* moto_0002_3.png */; };
+		E88743291DA351E600D84230 /* moto_0003_4.png in Resources */ = {isa = PBXBuildFile; fileRef = E88743281DA351E600D84230 /* moto_0003_4.png */; };
+		E887432B1DA351EC00D84230 /* moto_0004_5.png in Resources */ = {isa = PBXBuildFile; fileRef = E887432A1DA351EC00D84230 /* moto_0004_5.png */; };
+		E887432D1DA351F300D84230 /* car_0005_6.png in Resources */ = {isa = PBXBuildFile; fileRef = E887432C1DA351F300D84230 /* car_0005_6.png */; };
+		E887432F1DA351F700D84230 /* car_0006_7.png in Resources */ = {isa = PBXBuildFile; fileRef = E887432E1DA351F700D84230 /* car_0006_7.png */; };
+		E88743311DA351FC00D84230 /* car_0007_8.png in Resources */ = {isa = PBXBuildFile; fileRef = E88743301DA351FC00D84230 /* car_0007_8.png */; };
+		E88743331DA3520700D84230 /* moto_0005_6.png in Resources */ = {isa = PBXBuildFile; fileRef = E88743321DA3520700D84230 /* moto_0005_6.png */; };
+		E88743351DA3521100D84230 /* moto_0006_7.png in Resources */ = {isa = PBXBuildFile; fileRef = E88743341DA3521100D84230 /* moto_0006_7.png */; };
+		E88743371DA3521600D84230 /* moto_0007_8.png in Resources */ = {isa = PBXBuildFile; fileRef = E88743361DA3521600D84230 /* moto_0007_8.png */; };
+		E88743391DA3521D00D84230 /* moto_0008_9.png in Resources */ = {isa = PBXBuildFile; fileRef = E88743381DA3521D00D84230 /* moto_0008_9.png */; };
+		E887433B1DA3522D00D84230 /* moto_0009_10.png in Resources */ = {isa = PBXBuildFile; fileRef = E887433A1DA3522D00D84230 /* moto_0009_10.png */; };
+		E887433D1DA3523400D84230 /* car_0000_1.png in Resources */ = {isa = PBXBuildFile; fileRef = E887433C1DA3523400D84230 /* car_0000_1.png */; };
+		E887433F1DA3523900D84230 /* car_0001_2.png in Resources */ = {isa = PBXBuildFile; fileRef = E887433E1DA3523900D84230 /* car_0001_2.png */; };
+		E88743411DA3523D00D84230 /* car_0002_3.png in Resources */ = {isa = PBXBuildFile; fileRef = E88743401DA3523D00D84230 /* car_0002_3.png */; };
+		E88743431DA3524100D84230 /* car_0003_4.png in Resources */ = {isa = PBXBuildFile; fileRef = E88743421DA3524100D84230 /* car_0003_4.png */; };
+		E88743451DA3524600D84230 /* car_0004_5.png in Resources */ = {isa = PBXBuildFile; fileRef = E88743441DA3524600D84230 /* car_0004_5.png */; };
+		E88743471DA3524D00D84230 /* car_0008_9.png in Resources */ = {isa = PBXBuildFile; fileRef = E88743461DA3524D00D84230 /* car_0008_9.png */; };
+		E88743491DA3525900D84230 /* car_0009_10.png in Resources */ = {isa = PBXBuildFile; fileRef = E88743481DA3525900D84230 /* car_0009_10.png */; };
+		E88743541DA3528D00D84230 /* truck_0000_1.png in Resources */ = {isa = PBXBuildFile; fileRef = E887434A1DA3528D00D84230 /* truck_0000_1.png */; };
+		E88743551DA3528D00D84230 /* truck_0001_2.png in Resources */ = {isa = PBXBuildFile; fileRef = E887434B1DA3528D00D84230 /* truck_0001_2.png */; };
+		E88743561DA3528D00D84230 /* truck_0002_3.png in Resources */ = {isa = PBXBuildFile; fileRef = E887434C1DA3528D00D84230 /* truck_0002_3.png */; };
+		E88743571DA3528D00D84230 /* truck_0003_4.png in Resources */ = {isa = PBXBuildFile; fileRef = E887434D1DA3528D00D84230 /* truck_0003_4.png */; };
+		E88743581DA3528D00D84230 /* truck_0004_5.png in Resources */ = {isa = PBXBuildFile; fileRef = E887434E1DA3528D00D84230 /* truck_0004_5.png */; };
+		E88743591DA3528D00D84230 /* truck_0005_6.png in Resources */ = {isa = PBXBuildFile; fileRef = E887434F1DA3528D00D84230 /* truck_0005_6.png */; };
+		E887435A1DA3528D00D84230 /* truck_0006_7.png in Resources */ = {isa = PBXBuildFile; fileRef = E88743501DA3528D00D84230 /* truck_0006_7.png */; };
+		E887435B1DA3528D00D84230 /* truck_0007_8.png in Resources */ = {isa = PBXBuildFile; fileRef = E88743511DA3528D00D84230 /* truck_0007_8.png */; };
+		E887435C1DA3528D00D84230 /* truck_0008_9.png in Resources */ = {isa = PBXBuildFile; fileRef = E88743521DA3528D00D84230 /* truck_0008_9.png */; };
+		E887435D1DA3528D00D84230 /* truck_0009_10.png in Resources */ = {isa = PBXBuildFile; fileRef = E88743531DA3528D00D84230 /* truck_0009_10.png */; };
+		E88743681DA3529D00D84230 /* bus_0000_1.png in Resources */ = {isa = PBXBuildFile; fileRef = E887435E1DA3529D00D84230 /* bus_0000_1.png */; };
+		E88743691DA3529D00D84230 /* bus_0001_2.png in Resources */ = {isa = PBXBuildFile; fileRef = E887435F1DA3529D00D84230 /* bus_0001_2.png */; };
+		E887436A1DA3529D00D84230 /* bus_0002_3.png in Resources */ = {isa = PBXBuildFile; fileRef = E88743601DA3529D00D84230 /* bus_0002_3.png */; };
+		E887436B1DA3529D00D84230 /* bus_0003_4.png in Resources */ = {isa = PBXBuildFile; fileRef = E88743611DA3529D00D84230 /* bus_0003_4.png */; };
+		E887436C1DA3529D00D84230 /* bus_0004_5.png in Resources */ = {isa = PBXBuildFile; fileRef = E88743621DA3529D00D84230 /* bus_0004_5.png */; };
+		E887436D1DA3529D00D84230 /* bus_0005_6.png in Resources */ = {isa = PBXBuildFile; fileRef = E88743631DA3529D00D84230 /* bus_0005_6.png */; };
+		E887436E1DA3529D00D84230 /* bus_0006_7.png in Resources */ = {isa = PBXBuildFile; fileRef = E88743641DA3529D00D84230 /* bus_0006_7.png */; };
+		E887436F1DA3529D00D84230 /* bus_0007_8.png in Resources */ = {isa = PBXBuildFile; fileRef = E88743651DA3529D00D84230 /* bus_0007_8.png */; };
+		E88743701DA3529D00D84230 /* bus_0008_9.png in Resources */ = {isa = PBXBuildFile; fileRef = E88743661DA3529D00D84230 /* bus_0008_9.png */; };
+		E88743711DA3529D00D84230 /* bus_0009_10.png in Resources */ = {isa = PBXBuildFile; fileRef = E88743671DA3529D00D84230 /* bus_0009_10.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E82CBEA01D9CB75D007FF770 /* 2000px-Street_intersection_diagram.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "2000px-Street_intersection_diagram.png"; path = "Pictures/Backgrounds/2000px-Street_intersection_diagram.png"; sourceTree = "<group>"; };
+		E82CBEE21D9CD0BE007FF770 /* Pictures */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Pictures; sourceTree = "<group>"; };
+		E82CBEE41D9CD1E8007FF770 /* curvaderecha.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = curvaderecha.png; path = Pictures/Backgrounds/curvaderecha.png; sourceTree = "<group>"; };
+		E82CBEE61D9CD1ED007FF770 /* curvaizquierda.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = curvaizquierda.png; path = Pictures/Backgrounds/curvaizquierda.png; sourceTree = "<group>"; };
+		E82CBEE81D9CD1F3007FF770 /* interseccionTPARE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = interseccionTPARE.png; path = Pictures/Backgrounds/interseccionTPARE.png; sourceTree = "<group>"; };
+		E82CBEEA1D9CD1FA007FF770 /* interseccionTSemaforizada.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = interseccionTSemaforizada.png; path = Pictures/Backgrounds/interseccionTSemaforizada.png; sourceTree = "<group>"; };
+		E82CBEEC1D9CD1FF007FF770 /* interseccionXCuatroPARE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = interseccionXCuatroPARE.png; path = Pictures/Backgrounds/interseccionXCuatroPARE.png; sourceTree = "<group>"; };
+		E82CBEEE1D9CD201007FF770 /* interseccionXDosPARE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = interseccionXDosPARE.png; path = Pictures/Backgrounds/interseccionXDosPARE.png; sourceTree = "<group>"; };
+		E82CBEF01D9CD203007FF770 /* interseccionXSemaforizada.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = interseccionXSemaforizada.png; path = Pictures/Backgrounds/interseccionXSemaforizada.png; sourceTree = "<group>"; };
+		E82CBEF21D9CD211007FF770 /* parking.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = parking.png; path = Pictures/Backgrounds/parking.png; sourceTree = "<group>"; };
+		E82CBEF41D9CD213007FF770 /* rampaDeEntrada.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rampaDeEntrada.png; path = Pictures/Backgrounds/rampaDeEntrada.png; sourceTree = "<group>"; };
+		E82CBEF61D9CD214007FF770 /* rampaDeSalida.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rampaDeSalida.png; path = Pictures/Backgrounds/rampaDeSalida.png; sourceTree = "<group>"; };
+		E82CBEF81D9CD216007FF770 /* rotonda.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rotonda.png; path = Pictures/Backgrounds/rotonda.png; sourceTree = "<group>"; };
+		E82CBEFA1D9CD217007FF770 /* tangente4CarrilesConIsleta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tangente4CarrilesConIsleta.png; path = Pictures/Backgrounds/tangente4CarrilesConIsleta.png; sourceTree = "<group>"; };
+		E82CBEFC1D9CD219007FF770 /* tangenteDosCarriles.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tangenteDosCarriles.png; path = Pictures/Backgrounds/tangenteDosCarriles.png; sourceTree = "<group>"; };
+		E82CBEFE1D9CD225007FF770 /* interseccionXDosPARE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = interseccionXDosPARE.png; path = Pictures/Backgrounds/interseccionXDosPARE.png; sourceTree = "<group>"; };
+		E84164B01D8F7F3B000D8FE3 /* DiagramaColisiones.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiagramaColisiones.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E84164B31D8F7F3B000D8FE3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E84164B51D8F7F3B000D8FE3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E84164B81D8F7F3B000D8FE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E84164BA1D8F7F3B000D8FE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E84164BD1D8F7F3B000D8FE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E84164BF1D8F7F3B000D8FE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E88743201DA34DC700D84230 /* Icons */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Icons; sourceTree = "<group>"; };
+		E88743221DA34E2600D84230 /* moto_0000_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = moto_0000_1.png; path = Icons/moto_0000_1.png; sourceTree = "<group>"; };
+		E88743241DA34F9500D84230 /* moto_0001_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = moto_0001_2.png; path = Icons/moto_0001_2.png; sourceTree = "<group>"; };
+		E88743261DA351DF00D84230 /* moto_0002_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = moto_0002_3.png; path = Icons/moto_0002_3.png; sourceTree = "<group>"; };
+		E88743281DA351E600D84230 /* moto_0003_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = moto_0003_4.png; path = Icons/moto_0003_4.png; sourceTree = "<group>"; };
+		E887432A1DA351EC00D84230 /* moto_0004_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = moto_0004_5.png; path = Icons/moto_0004_5.png; sourceTree = "<group>"; };
+		E887432C1DA351F300D84230 /* car_0005_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = car_0005_6.png; path = Icons/car_0005_6.png; sourceTree = "<group>"; };
+		E887432E1DA351F700D84230 /* car_0006_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = car_0006_7.png; path = Icons/car_0006_7.png; sourceTree = "<group>"; };
+		E88743301DA351FC00D84230 /* car_0007_8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = car_0007_8.png; path = Icons/car_0007_8.png; sourceTree = "<group>"; };
+		E88743321DA3520700D84230 /* moto_0005_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = moto_0005_6.png; path = Icons/moto_0005_6.png; sourceTree = "<group>"; };
+		E88743341DA3521100D84230 /* moto_0006_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = moto_0006_7.png; path = Icons/moto_0006_7.png; sourceTree = "<group>"; };
+		E88743361DA3521600D84230 /* moto_0007_8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = moto_0007_8.png; path = Icons/moto_0007_8.png; sourceTree = "<group>"; };
+		E88743381DA3521D00D84230 /* moto_0008_9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = moto_0008_9.png; path = Icons/moto_0008_9.png; sourceTree = "<group>"; };
+		E887433A1DA3522D00D84230 /* moto_0009_10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = moto_0009_10.png; path = Icons/moto_0009_10.png; sourceTree = "<group>"; };
+		E887433C1DA3523400D84230 /* car_0000_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = car_0000_1.png; path = Icons/car_0000_1.png; sourceTree = "<group>"; };
+		E887433E1DA3523900D84230 /* car_0001_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = car_0001_2.png; path = Icons/car_0001_2.png; sourceTree = "<group>"; };
+		E88743401DA3523D00D84230 /* car_0002_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = car_0002_3.png; path = Icons/car_0002_3.png; sourceTree = "<group>"; };
+		E88743421DA3524100D84230 /* car_0003_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = car_0003_4.png; path = Icons/car_0003_4.png; sourceTree = "<group>"; };
+		E88743441DA3524600D84230 /* car_0004_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = car_0004_5.png; path = Icons/car_0004_5.png; sourceTree = "<group>"; };
+		E88743461DA3524D00D84230 /* car_0008_9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = car_0008_9.png; path = Icons/car_0008_9.png; sourceTree = "<group>"; };
+		E88743481DA3525900D84230 /* car_0009_10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = car_0009_10.png; path = Icons/car_0009_10.png; sourceTree = "<group>"; };
+		E887434A1DA3528D00D84230 /* truck_0000_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = truck_0000_1.png; path = Icons/truck_0000_1.png; sourceTree = "<group>"; };
+		E887434B1DA3528D00D84230 /* truck_0001_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = truck_0001_2.png; path = Icons/truck_0001_2.png; sourceTree = "<group>"; };
+		E887434C1DA3528D00D84230 /* truck_0002_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = truck_0002_3.png; path = Icons/truck_0002_3.png; sourceTree = "<group>"; };
+		E887434D1DA3528D00D84230 /* truck_0003_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = truck_0003_4.png; path = Icons/truck_0003_4.png; sourceTree = "<group>"; };
+		E887434E1DA3528D00D84230 /* truck_0004_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = truck_0004_5.png; path = Icons/truck_0004_5.png; sourceTree = "<group>"; };
+		E887434F1DA3528D00D84230 /* truck_0005_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = truck_0005_6.png; path = Icons/truck_0005_6.png; sourceTree = "<group>"; };
+		E88743501DA3528D00D84230 /* truck_0006_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = truck_0006_7.png; path = Icons/truck_0006_7.png; sourceTree = "<group>"; };
+		E88743511DA3528D00D84230 /* truck_0007_8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = truck_0007_8.png; path = Icons/truck_0007_8.png; sourceTree = "<group>"; };
+		E88743521DA3528D00D84230 /* truck_0008_9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = truck_0008_9.png; path = Icons/truck_0008_9.png; sourceTree = "<group>"; };
+		E88743531DA3528D00D84230 /* truck_0009_10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = truck_0009_10.png; path = Icons/truck_0009_10.png; sourceTree = "<group>"; };
+		E887435E1DA3529D00D84230 /* bus_0000_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bus_0000_1.png; path = Icons/bus_0000_1.png; sourceTree = "<group>"; };
+		E887435F1DA3529D00D84230 /* bus_0001_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bus_0001_2.png; path = Icons/bus_0001_2.png; sourceTree = "<group>"; };
+		E88743601DA3529D00D84230 /* bus_0002_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bus_0002_3.png; path = Icons/bus_0002_3.png; sourceTree = "<group>"; };
+		E88743611DA3529D00D84230 /* bus_0003_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bus_0003_4.png; path = Icons/bus_0003_4.png; sourceTree = "<group>"; };
+		E88743621DA3529D00D84230 /* bus_0004_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bus_0004_5.png; path = Icons/bus_0004_5.png; sourceTree = "<group>"; };
+		E88743631DA3529D00D84230 /* bus_0005_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bus_0005_6.png; path = Icons/bus_0005_6.png; sourceTree = "<group>"; };
+		E88743641DA3529D00D84230 /* bus_0006_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bus_0006_7.png; path = Icons/bus_0006_7.png; sourceTree = "<group>"; };
+		E88743651DA3529D00D84230 /* bus_0007_8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bus_0007_8.png; path = Icons/bus_0007_8.png; sourceTree = "<group>"; };
+		E88743661DA3529D00D84230 /* bus_0008_9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bus_0008_9.png; path = Icons/bus_0008_9.png; sourceTree = "<group>"; };
+		E88743671DA3529D00D84230 /* bus_0009_10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bus_0009_10.png; path = Icons/bus_0009_10.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E84164AD1D8F7F3B000D8FE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E84164A71D8F7F3B000D8FE3 = {
+			isa = PBXGroup;
+			children = (
+				E84164B21D8F7F3B000D8FE3 /* DiagramaColisiones */,
+				E84164B11D8F7F3B000D8FE3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E84164B11D8F7F3B000D8FE3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E84164B01D8F7F3B000D8FE3 /* DiagramaColisiones.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E84164B21D8F7F3B000D8FE3 /* DiagramaColisiones */ = {
+			isa = PBXGroup;
+			children = (
+				E82CBEE21D9CD0BE007FF770 /* Pictures */,
+				E84164B31D8F7F3B000D8FE3 /* AppDelegate.swift */,
+				E84164B51D8F7F3B000D8FE3 /* ViewController.swift */,
+				E84164B71D8F7F3B000D8FE3 /* Main.storyboard */,
+				E82CBEE81D9CD1F3007FF770 /* interseccionTPARE.png */,
+				E82CBEEA1D9CD1FA007FF770 /* interseccionTSemaforizada.png */,
+				E82CBEFE1D9CD225007FF770 /* interseccionXDosPARE.png */,
+				E82CBEF41D9CD213007FF770 /* rampaDeEntrada.png */,
+				E82CBEEC1D9CD1FF007FF770 /* interseccionXCuatroPARE.png */,
+				E82CBEFA1D9CD217007FF770 /* tangente4CarrilesConIsleta.png */,
+				E82CBEFC1D9CD219007FF770 /* tangenteDosCarriles.png */,
+				E82CBEF81D9CD216007FF770 /* rotonda.png */,
+				E82CBEF61D9CD214007FF770 /* rampaDeSalida.png */,
+				E82CBEF21D9CD211007FF770 /* parking.png */,
+				E82CBEE41D9CD1E8007FF770 /* curvaderecha.png */,
+				E82CBEE61D9CD1ED007FF770 /* curvaizquierda.png */,
+				E82CBEF01D9CD203007FF770 /* interseccionXSemaforizada.png */,
+				E82CBEA01D9CB75D007FF770 /* 2000px-Street_intersection_diagram.png */,
+				E82CBEEE1D9CD201007FF770 /* interseccionXDosPARE.png */,
+				E88743221DA34E2600D84230 /* moto_0000_1.png */,
+				E88743241DA34F9500D84230 /* moto_0001_2.png */,
+				E88743261DA351DF00D84230 /* moto_0002_3.png */,
+				E88743281DA351E600D84230 /* moto_0003_4.png */,
+				E887432A1DA351EC00D84230 /* moto_0004_5.png */,
+				E88743321DA3520700D84230 /* moto_0005_6.png */,
+				E88743341DA3521100D84230 /* moto_0006_7.png */,
+				E88743361DA3521600D84230 /* moto_0007_8.png */,
+				E88743381DA3521D00D84230 /* moto_0008_9.png */,
+				E887433A1DA3522D00D84230 /* moto_0009_10.png */,
+				E887433C1DA3523400D84230 /* car_0000_1.png */,
+				E887433E1DA3523900D84230 /* car_0001_2.png */,
+				E88743401DA3523D00D84230 /* car_0002_3.png */,
+				E88743421DA3524100D84230 /* car_0003_4.png */,
+				E88743441DA3524600D84230 /* car_0004_5.png */,
+				E887432C1DA351F300D84230 /* car_0005_6.png */,
+				E887432E1DA351F700D84230 /* car_0006_7.png */,
+				E88743301DA351FC00D84230 /* car_0007_8.png */,
+				E88743461DA3524D00D84230 /* car_0008_9.png */,
+				E88743481DA3525900D84230 /* car_0009_10.png */,
+				E887434A1DA3528D00D84230 /* truck_0000_1.png */,
+				E887434B1DA3528D00D84230 /* truck_0001_2.png */,
+				E887434C1DA3528D00D84230 /* truck_0002_3.png */,
+				E887434D1DA3528D00D84230 /* truck_0003_4.png */,
+				E887434E1DA3528D00D84230 /* truck_0004_5.png */,
+				E887434F1DA3528D00D84230 /* truck_0005_6.png */,
+				E88743501DA3528D00D84230 /* truck_0006_7.png */,
+				E88743511DA3528D00D84230 /* truck_0007_8.png */,
+				E88743521DA3528D00D84230 /* truck_0008_9.png */,
+				E88743531DA3528D00D84230 /* truck_0009_10.png */,
+				E887435E1DA3529D00D84230 /* bus_0000_1.png */,
+				E887435F1DA3529D00D84230 /* bus_0001_2.png */,
+				E88743601DA3529D00D84230 /* bus_0002_3.png */,
+				E88743611DA3529D00D84230 /* bus_0003_4.png */,
+				E88743621DA3529D00D84230 /* bus_0004_5.png */,
+				E88743631DA3529D00D84230 /* bus_0005_6.png */,
+				E88743641DA3529D00D84230 /* bus_0006_7.png */,
+				E88743651DA3529D00D84230 /* bus_0007_8.png */,
+				E88743661DA3529D00D84230 /* bus_0008_9.png */,
+				E88743671DA3529D00D84230 /* bus_0009_10.png */,
+				E88743201DA34DC700D84230 /* Icons */,
+				E84164BA1D8F7F3B000D8FE3 /* Assets.xcassets */,
+				E84164BC1D8F7F3B000D8FE3 /* LaunchScreen.storyboard */,
+				E84164BF1D8F7F3B000D8FE3 /* Info.plist */,
+			);
+			path = DiagramaColisiones;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E84164AF1D8F7F3B000D8FE3 /* DiagramaColisiones */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E84164C21D8F7F3B000D8FE3 /* Build configuration list for PBXNativeTarget "DiagramaColisiones" */;
+			buildPhases = (
+				E84164AC1D8F7F3B000D8FE3 /* Sources */,
+				E84164AD1D8F7F3B000D8FE3 /* Frameworks */,
+				E84164AE1D8F7F3B000D8FE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DiagramaColisiones;
+			productName = DiagramaColisiones;
+			productReference = E84164B01D8F7F3B000D8FE3 /* DiagramaColisiones.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E84164A81D8F7F3B000D8FE3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = MayFireDesigns;
+				TargetAttributes = {
+					E84164AF1D8F7F3B000D8FE3 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = E84164AB1D8F7F3B000D8FE3 /* Build configuration list for PBXProject "DiagramaColisiones" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E84164A71D8F7F3B000D8FE3;
+			productRefGroup = E84164B11D8F7F3B000D8FE3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E84164AF1D8F7F3B000D8FE3 /* DiagramaColisiones */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E84164AE1D8F7F3B000D8FE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E88743391DA3521D00D84230 /* moto_0008_9.png in Resources */,
+				E88743231DA34E2600D84230 /* moto_0000_1.png in Resources */,
+				E82CBEE91D9CD1F3007FF770 /* interseccionTPARE.png in Resources */,
+				E82CBEE51D9CD1E8007FF770 /* curvaderecha.png in Resources */,
+				E887436A1DA3529D00D84230 /* bus_0002_3.png in Resources */,
+				E887435C1DA3528D00D84230 /* truck_0008_9.png in Resources */,
+				E887433B1DA3522D00D84230 /* moto_0009_10.png in Resources */,
+				E82CBEF11D9CD203007FF770 /* interseccionXSemaforizada.png in Resources */,
+				E82CBEEB1D9CD1FA007FF770 /* interseccionTSemaforizada.png in Resources */,
+				E82CBEF31D9CD211007FF770 /* parking.png in Resources */,
+				E82CBEED1D9CD1FF007FF770 /* interseccionXCuatroPARE.png in Resources */,
+				E88743591DA3528D00D84230 /* truck_0005_6.png in Resources */,
+				E88743711DA3529D00D84230 /* bus_0009_10.png in Resources */,
+				E88743471DA3524D00D84230 /* car_0008_9.png in Resources */,
+				E88743691DA3529D00D84230 /* bus_0001_2.png in Resources */,
+				E88743431DA3524100D84230 /* car_0003_4.png in Resources */,
+				E82CBEE31D9CD0BE007FF770 /* Pictures in Resources */,
+				E88743561DA3528D00D84230 /* truck_0002_3.png in Resources */,
+				E82CBEF51D9CD213007FF770 /* rampaDeEntrada.png in Resources */,
+				E82CBEFB1D9CD217007FF770 /* tangente4CarrilesConIsleta.png in Resources */,
+				E84164BE1D8F7F3B000D8FE3 /* LaunchScreen.storyboard in Resources */,
+				E88743681DA3529D00D84230 /* bus_0000_1.png in Resources */,
+				E88743211DA34DC700D84230 /* Icons in Resources */,
+				E887436F1DA3529D00D84230 /* bus_0007_8.png in Resources */,
+				E887433D1DA3523400D84230 /* car_0000_1.png in Resources */,
+				E88743541DA3528D00D84230 /* truck_0000_1.png in Resources */,
+				E82CBEFD1D9CD219007FF770 /* tangenteDosCarriles.png in Resources */,
+				E88743271DA351DF00D84230 /* moto_0002_3.png in Resources */,
+				E88743291DA351E600D84230 /* moto_0003_4.png in Resources */,
+				E88743411DA3523D00D84230 /* car_0002_3.png in Resources */,
+				E82CBEEF1D9CD201007FF770 /* interseccionXDosPARE.png in Resources */,
+				E887435B1DA3528D00D84230 /* truck_0007_8.png in Resources */,
+				E88743311DA351FC00D84230 /* car_0007_8.png in Resources */,
+				E88743251DA34F9500D84230 /* moto_0001_2.png in Resources */,
+				E88743551DA3528D00D84230 /* truck_0001_2.png in Resources */,
+				E88743351DA3521100D84230 /* moto_0006_7.png in Resources */,
+				E88743331DA3520700D84230 /* moto_0005_6.png in Resources */,
+				E88743371DA3521600D84230 /* moto_0007_8.png in Resources */,
+				E887432F1DA351F700D84230 /* car_0006_7.png in Resources */,
+				E88743581DA3528D00D84230 /* truck_0004_5.png in Resources */,
+				E82CBEE71D9CD1ED007FF770 /* curvaizquierda.png in Resources */,
+				E887436E1DA3529D00D84230 /* bus_0006_7.png in Resources */,
+				E887436C1DA3529D00D84230 /* bus_0004_5.png in Resources */,
+				E88743701DA3529D00D84230 /* bus_0008_9.png in Resources */,
+				E82CBEF91D9CD216007FF770 /* rotonda.png in Resources */,
+				E82CBEFF1D9CD225007FF770 /* interseccionXDosPARE.png in Resources */,
+				E887433F1DA3523900D84230 /* car_0001_2.png in Resources */,
+				E887435D1DA3528D00D84230 /* truck_0009_10.png in Resources */,
+				E887436D1DA3529D00D84230 /* bus_0005_6.png in Resources */,
+				E88743491DA3525900D84230 /* car_0009_10.png in Resources */,
+				E887432D1DA351F300D84230 /* car_0005_6.png in Resources */,
+				E88743571DA3528D00D84230 /* truck_0003_4.png in Resources */,
+				E88743451DA3524600D84230 /* car_0004_5.png in Resources */,
+				E82CBEF71D9CD214007FF770 /* rampaDeSalida.png in Resources */,
+				E887436B1DA3529D00D84230 /* bus_0003_4.png in Resources */,
+				E84164BB1D8F7F3B000D8FE3 /* Assets.xcassets in Resources */,
+				E82CBEA11D9CB75D007FF770 /* 2000px-Street_intersection_diagram.png in Resources */,
+				E887435A1DA3528D00D84230 /* truck_0006_7.png in Resources */,
+				E84164B91D8F7F3B000D8FE3 /* Main.storyboard in Resources */,
+				E887432B1DA351EC00D84230 /* moto_0004_5.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E84164AC1D8F7F3B000D8FE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E84164B61D8F7F3B000D8FE3 /* ViewController.swift in Sources */,
+				E84164B41D8F7F3B000D8FE3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E84164B71D8F7F3B000D8FE3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E84164B81D8F7F3B000D8FE3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E84164BC1D8F7F3B000D8FE3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E84164BD1D8F7F3B000D8FE3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E84164C01D8F7F3B000D8FE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E84164C11D8F7F3B000D8FE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E84164C31D8F7F3B000D8FE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DiagramaColisiones/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MayFireDesigns.DiagramaColisiones;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
+			};
+			name = Debug;
+		};
+		E84164C41D8F7F3B000D8FE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DiagramaColisiones/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MayFireDesigns.DiagramaColisiones;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E84164AB1D8F7F3B000D8FE3 /* Build configuration list for PBXProject "DiagramaColisiones" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E84164C01D8F7F3B000D8FE3 /* Debug */,
+				E84164C11D8F7F3B000D8FE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E84164C21D8F7F3B000D8FE3 /* Build configuration list for PBXNativeTarget "DiagramaColisiones" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E84164C31D8F7F3B000D8FE3 /* Debug */,
+				E84164C41D8F7F3B000D8FE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E84164A81D8F7F3B000D8FE3 /* Project object */;
+}
