@@ -7,6 +7,8 @@
 // Running
 
 import UIKit
+import Photos
+import PhotosUI
 
 class ViewController: UIViewController {
     
@@ -37,6 +39,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var textBox: UITextField!
     @IBOutlet weak var dropDown: UIPickerView!
     
+    @IBOutlet weak var shutterButton: UIButton!
     
     
     //Button Functionalities
@@ -71,7 +74,15 @@ class ViewController: UIViewController {
         
     }
     
-    
+    @IBAction func takeScreenshot(sender:AnyObject){
+
+        UIGraphicsBeginImageContextWithOptions(self.view.bounds.size, false, UIScreen.mainScreen().scale)
+        self.view.layer.renderInContext(UIGraphicsGetCurrentContext()!)
+        let image = UIGraphicsGetImageFromCurrentImageContext()
+        UIGraphicsEndImageContext()
+        UIImageWriteToSavedPhotosAlbum(image!, nil, nil, nil)
+        
+        }
     
     @IBAction func addTruck(sender: AnyObject) {
         switch (carnumber-1){
@@ -516,6 +527,49 @@ class ViewController: UIViewController {
     }
 
     
+    @IBAction func undo(sender: AnyObject) {
+
+        switch (carnumber-2){
+        case 0:
+            carImage.hidden = true
+            carnumber -= 1
+        case 1:
+            carImage1.hidden = true
+            carnumber -= 1
+        case 2:
+            carImage2.hidden = true
+            carnumber -= 1
+
+        case 3:
+            carImage3.hidden = true
+            carnumber -= 1
+        case 4:
+            carImage4.hidden = true
+            carnumber -= 1
+        case 5:
+            carImage5.hidden = true
+            carnumber -= 1
+        case 6:
+            carImage6.hidden = true
+            carnumber -= 1
+        case 7:
+            carImage7.hidden = true
+            carnumber -= 1
+
+        case 8:
+            carImage8.hidden = true
+            carnumber -= 1
+
+        case 9:
+            carImage9.hidden = true
+            carnumber -= 1
+            
+        default:
+            print("Nothing Happened")
+        }
+
+        
+    }
     
     
     
